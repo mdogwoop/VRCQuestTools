@@ -1,0 +1,719 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: vrc-quest-tools\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2025-05-17 12:44+0800\n"
+"Last-Translator: \n"
+"Language-Team: English\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Crowdin-Project: vrc-quest-tools\n"
+"X-Crowdin-Project-ID: 712497\n"
+"X-Crowdin-Language: en\n"
+"X-Crowdin-File: /master/Packages/com.github.kurotu.vrc-quest-tools/Editor/I18n/en-US.po\n"
+"X-Crowdin-File-ID: 58\n"
+"X-Generator: Poedit 3.6\n"
+
+msgid "CancelLabel"
+msgstr "取消"
+
+msgid "OpenLabel"
+msgstr "打开"
+
+msgid "CloseLabel"
+msgstr "关闭"
+
+msgid "DismissLabel"
+msgstr "关闭"
+
+msgid "ExitLabel"
+msgstr "退出"
+
+msgid "YesLabel"
+msgstr "是"
+
+msgid "NoLabel"
+msgstr "否"
+
+msgid "AbortLabel"
+msgstr "中止"
+
+msgid "AddLabel"
+msgstr "添加"
+
+msgid "RemoveLabel"
+msgstr "删除"
+
+msgid "FixLabel"
+msgstr "修复"
+
+msgid "Maximum"
+msgstr "最大"
+
+msgid "IncompatibleSDK"
+msgstr "不兼容此 VRChat SDK ，请反馈此问题"
+
+msgid "TextureFormatHighQuality"
+msgstr "更高质量"
+
+msgid "TextureFormatHighCompression"
+msgstr "更高压缩"
+
+msgid "AvatarConverterSettingsEditorDescription"
+msgstr "转换此模型，使其可以上传至 Android 平台。"
+
+msgid "AvatarConverterSettingsEditorDescriptionNDMF"
+msgstr "如果您的构建目标是 Android ，请转换此模型，以便可以上传到 Android 平台。"
+
+msgid "ExitPlayModeToEdit"
+msgstr "请退出运行模式以进行编辑。"
+
+msgid "BeingConvertSettingsButtonLabel"
+msgstr "开始设置转换"
+
+msgid "AvatarLabel"
+msgstr "模型"
+
+msgid "GenerateAndroidTexturesLabel"
+msgstr "生成 Android 纹理"
+
+msgid "GenerateAndroidTexturesTooltip"
+msgstr "除了主纹理之外，还通过参考材质参数生成纹理，使外观更接近 PC 版角色。"
+
+msgid "SupportedShadersLabel"
+msgstr "支持的着色器"
+
+msgid "SaveToLabel"
+msgstr "目标文件夹"
+
+msgid "SelectButtonLabel"
+msgstr "选择"
+
+msgid "ConvertButtonLabel"
+msgstr "转换"
+
+msgid "AssignButtonLabel"
+msgstr "分配"
+
+msgid "AttachButtonLabel"
+msgstr "附加"
+
+msgid "UpdateTexturesLabel"
+msgstr "更新转换的 Android 纹理"
+
+msgid "AdvancedConverterSettingsLabel"
+msgstr "高级转换设置"
+
+msgid "RemoveVertexColorLabel"
+msgstr "从网格中移除顶点颜色"
+
+msgid "RemoveVertexColorTooltip"
+msgstr ""
+"通常不需要禁用此选项。如果您的 PC 端模型使用需要顶点颜色的特殊着色器，您可以禁用此选项以防止出现问题。\n"
+"如果您不小心删除了顶点颜色，您可以使用模型上的“VertexColorRemover”组件恢复它。"
+
+msgid "RemoveExtraMaterialSlotsLabel"
+msgstr "移除多余的材质槽"
+
+msgid "RemoveExtraMaterialSlotsTooltip"
+msgstr "删除大于每个渲染器的子网格数量的额外材质槽。"
+
+msgid "CompressExpressionsMenuIconsLabel"
+msgstr "压缩菜单图标"
+
+msgid "CompressExpressionsMenuIconsTooltip"
+msgstr ""
+
+msgid "AnimationOverrideLabel"
+msgstr ""
+
+msgid "AnimationOverrideTooltip"
+msgstr ""
+
+msgid "NdmfPhaseLabel"
+msgstr ""
+
+msgid "NdmfPhaseTooltip"
+msgstr ""
+
+msgid "GeneratingTexturesDialogMessage"
+msgstr ""
+
+msgid "AvatarConverterFailedDialogMessage"
+msgstr ""
+
+msgid "MaterialExceptionDialogMessage"
+msgstr ""
+
+msgid "AnimationClipExceptionDialogMessage"
+msgstr ""
+
+msgid "AnimatorControllerExceptionDialogMessage"
+msgstr ""
+
+msgid "InvalidReplacementMaterialExceptionDialogMessage"
+msgstr ""
+
+msgid "InfoForNdmfConversion"
+msgstr ""
+
+msgid "InfoForNdmfConversion2"
+msgstr ""
+
+msgid "InfoForNetworkIdAssigner"
+msgstr ""
+
+msgid "NetworkIdAssignerAttached"
+msgstr ""
+
+msgid "WarningForPerformance"
+msgstr ""
+
+msgid "WarningForAppearance"
+msgstr ""
+
+msgid "WarningForUnsupportedShaders"
+msgstr ""
+
+msgid "AlertForComponents"
+msgstr ""
+
+msgid "AlertForDynamicBoneConversion"
+msgstr ""
+
+msgid "AlertForMAConvertConstraints"
+msgstr ""
+
+msgid "AlertForUnityConstraintsConversion"
+msgstr ""
+
+msgid "AlertForAvatarDynamicsPerformance"
+msgstr ""
+
+msgid "ErrorForPrefabStage"
+msgstr ""
+
+msgid "ExitPrefabStageButtonLabel"
+msgstr ""
+
+msgid "AvatarConverterMaterialConvertSettingsLabel"
+msgstr ""
+
+msgid "AvatarConverterDefaultMaterialConvertSettingLabel"
+msgstr ""
+
+msgid "AvatarConverterAdditionalMaterialConvertSettingsLabel"
+msgstr ""
+
+msgid "AvatarConverterAvatarDynamicsSettingsLabel"
+msgstr ""
+
+msgid "AvatarConverterRemoveAvatarDynamicsLabel"
+msgstr ""
+
+msgid "AvatarConverterRemoveAvatarDynamicsTooltip"
+msgstr ""
+
+msgid "AvatarConverterPhysBonesTooltip"
+msgstr ""
+
+msgid "AvatarConverterPhysBoneCollidersTooltip"
+msgstr ""
+
+msgid "AvatarConverterContactsTooltip"
+msgstr ""
+
+msgid "OpenAvatarBuilder"
+msgstr ""
+
+msgid "ManualConversionWarning"
+msgstr ""
+
+msgid "ManualConvertButtonLabel"
+msgstr ""
+
+msgid "ConfirmationForUnityConstraints"
+msgstr ""
+
+msgid "IMaterialConvertSettingsTexturesSizeLimitLabel"
+msgstr ""
+
+msgid "IMaterialConvertSettingsMobileTextureFormatLabel"
+msgstr ""
+
+msgid "IMaterialConvertSettingsMainTextureBrightnessLabel"
+msgstr ""
+
+msgid "IMaterialConvertSettingsMainTextureBrightnessTooltip"
+msgstr ""
+
+msgid "ToonLitConvertSettingsGenerateShadowFromNormalMapLabel"
+msgstr ""
+
+msgid "MatCapLitConvertSettingsMatCapTextureLabel"
+msgstr ""
+
+msgid "MatCapLitConvertSettingsMatCapTextureWarning"
+msgstr ""
+
+msgid "AdditionalMaterialConvertSettingsTargetMaterialLabel"
+msgstr ""
+
+msgid "AdditionalMaterialConvertSettingsSelectMaterialLabel"
+msgstr ""
+
+msgid "MaterialConvertTypePopupLabelToonLit"
+msgstr ""
+
+msgid "MaterialConvertTypePopupLabelMatCapLit"
+msgstr ""
+
+msgid "MaterialConvertTypePopupLabelMaterialReplace"
+msgstr ""
+
+msgid "MaterialReplaceSettingsMaterialLabel"
+msgstr ""
+
+msgid "MaterialReplaceSettingsMaterialTooltip"
+msgstr ""
+
+msgid "MaterialReplaceSettingsMaterialWarning"
+msgstr ""
+
+msgid "NoMissingComponentsMessage"
+msgstr ""
+
+msgid "MissingRemoverConfirmationMessage"
+msgstr ""
+
+msgid "UnpackPrefabMessage"
+msgstr ""
+
+msgid "MissingRemoverOnBuildDialogMessage"
+msgstr ""
+
+msgid "SourceMeshLabel"
+msgstr ""
+
+msgid "TargetMeshLabel"
+msgstr ""
+
+msgid "CopyButtonLabel"
+msgstr ""
+
+msgid "SwitchButtonLabel"
+msgstr ""
+
+msgid "NoUnsupportedComponentsMessage"
+msgstr ""
+
+msgid "UnsupportedRemoverConfirmationMessage"
+msgstr ""
+
+msgid "PhysBonesSDKRequired"
+msgstr ""
+
+msgid "SelectComponentsToKeep"
+msgstr ""
+
+msgid "PhysBonesListTooltip"
+msgstr ""
+
+msgid "KeepAll"
+msgstr ""
+
+msgid "AvatarDynamicsPreventsUpload"
+msgstr ""
+
+msgid "PhysBonesWillBeRemovedAtRunTime"
+msgstr ""
+
+msgid "PhysBoneCollidersWillBeRemovedAtRunTime"
+msgstr ""
+
+msgid "ContactsWillBeRemovedAtRunTime"
+msgstr ""
+
+msgid "PhysBonesTransformsShouldBeReduced"
+msgstr ""
+
+msgid "PhysBonesCollisionCheckCountShouldBeReduced"
+msgstr ""
+
+msgid "PhysBonesShouldHaveNetworkID"
+msgstr ""
+
+msgid "AlertForMultiplePhysBones"
+msgstr ""
+
+msgid "EstimatedPerformanceStats"
+msgstr ""
+
+msgid "DeleteUnselectedComponents"
+msgstr ""
+
+msgid "SelectAllButtonLabel"
+msgstr ""
+
+msgid "DeselectAllButtonLabel"
+msgstr ""
+
+msgid "ApplyButtonLabel"
+msgstr ""
+
+msgid "TextureLabel"
+msgstr ""
+
+msgid "InvertLabel"
+msgstr ""
+
+msgid "SaveFileDialogTitle"
+msgstr ""
+
+msgid "SaveFileDialogMessage"
+msgstr ""
+
+msgid "GenerateButtonLabel"
+msgstr ""
+
+msgid "RecommendedUnitySettingsForAndroid"
+msgstr ""
+
+msgid "AndroidBuildSupportHelp"
+msgstr ""
+
+msgid "AndroidBuildSupportButtonLabel"
+msgstr ""
+
+msgid "TextureCompressionLabel"
+msgstr ""
+
+msgid "TextureCompressionHelp"
+msgstr ""
+
+msgid "TextureCompressionButtonLabel"
+msgstr ""
+
+msgid "ApplyAllButtonLabel"
+msgstr ""
+
+msgid "ShowOnStartupLabel"
+msgstr ""
+
+msgid "AllAppliedHelp"
+msgstr ""
+
+msgid "GetUpdate"
+msgstr ""
+
+msgid "SeeChangelog"
+msgstr ""
+
+msgid "SkipThisVersion"
+msgstr ""
+
+msgid "NewVersionIsAvailable"
+msgstr ""
+
+msgid "NewVersionHasBreakingChanges"
+msgstr ""
+
+msgid "MissingScripts"
+msgstr ""
+
+msgid "ExperimentalComponentWarning"
+msgstr ""
+
+msgid "AvatarRootComponentMustBeOnAvatarRoot"
+msgstr ""
+
+msgid "VertexColorRemoverEditorDescription"
+msgstr ""
+
+msgid "VertexColorRemoverEditorRemove"
+msgstr ""
+
+msgid "VertexColorRemoverEditorRestore"
+msgstr ""
+
+msgid "ConvertedAvatarEditorMessage"
+msgstr ""
+
+msgid "ConvertedAvatarEditorNDMFMessage"
+msgstr ""
+
+msgid "NetworkIDAssignerEditorDescription"
+msgstr ""
+
+msgid "PlatformTargetSettingsEditorDescription"
+msgstr ""
+
+msgid "PlatformTargetSettingsIsRequiredToEnforcePlatform"
+msgstr ""
+
+msgid "ComponentRequiresNdmf"
+msgstr ""
+
+msgid "BuildTargetLabel"
+msgstr ""
+
+msgid "BuildTargetTooltip"
+msgstr ""
+
+msgid "PlatformComponentRemoverEditorDescription"
+msgstr ""
+
+msgid "PlatformComponentRemoverEditorComponentSettingsLabel"
+msgstr ""
+
+msgid "PlatformComponentRemoverEditorComponentSettingsTooltip"
+msgstr ""
+
+msgid "PlatformComponentRemoverEditorCheckboxPCTooltip"
+msgstr ""
+
+msgid "PlatformComponentRemoverEditorCheckboxAndroidTooltip"
+msgstr ""
+
+msgid "ComponentLabel"
+msgstr ""
+
+msgid "PlatformGameObjectRemoverEditorDescription"
+msgstr ""
+
+msgid "PlatformGameObjectRemoverEditorKeepOnPCLabel"
+msgstr ""
+
+msgid "PlatformGameObjectRemoverEditorKeepOnAndroidLabel"
+msgstr ""
+
+msgid "MeshFlipperEditorDescription"
+msgstr ""
+
+msgid "MeshFlipperEditorDirectionLabel"
+msgstr ""
+
+msgid "MeshFlipperEditorEnabledOnPCLabel"
+msgstr ""
+
+msgid "MeshFlipperEditorEnabledOnAndroidLabel"
+msgstr ""
+
+msgid "MeshFlipperEditorUseMaskLabel"
+msgstr ""
+
+msgid "MeshFlipperEditorMaskTextureLabel"
+msgstr ""
+
+msgid "MeshFlipperEditorMaskModeLabel"
+msgstr ""
+
+msgid "MeshFlipperEditorProcessingPhaseLabel"
+msgstr ""
+
+msgid "MeshFlipperEditorEnabledOnPCWarning"
+msgstr ""
+
+msgid "MeshFlipperEditorEnabledOnAndroidWarning"
+msgstr ""
+
+msgid "MeshFlipperEditorMaskTextureMissingError"
+msgstr ""
+
+msgid "MeshFlipperEditorMaskTextureNotReadableError"
+msgstr ""
+
+msgid "MeshFlipperMeshDirectionFlip"
+msgstr ""
+
+msgid "MeshFlipperMeshDirectionDoubleSide"
+msgstr ""
+
+msgid "MaterialSwapEditorDescription"
+msgstr ""
+
+msgid "MaterialSwapEditorMaterialMappingsLabel"
+msgstr ""
+
+msgid "MaterialSwapEditorOriginalMaterialLabel"
+msgstr ""
+
+msgid "MaterialSwapEditorReplacementMaterialLabel"
+msgstr ""
+
+msgid "MaterialSwapEditorSelectMaterialLabel"
+msgstr ""
+
+msgid "MaterialSwapEditorReplacementMaterialError"
+msgstr ""
+
+msgid "MaterialConversionSettingsEditorDescription"
+msgstr ""
+
+msgid "MaterialConversionSettingsEditorDefaultConversionWarning"
+msgstr ""
+
+msgid "MaterialConversionSettingsEditorConversionSettingsLabel"
+msgstr ""
+
+msgid "MenuIconResizerEditorDescription"
+msgstr ""
+
+msgid "MenuIconResizerEditorResizeModePCLabel"
+msgstr ""
+
+msgid "MenuIconResizerEditorResizeModeAndroidLabel"
+msgstr ""
+
+msgid "MenuIconResizerEditorCompressTexturesLabel"
+msgstr ""
+
+msgid "MenuIconResizerEditorMobileTextureFormatLabel"
+msgstr ""
+
+msgid "AvatarBuilderWindowExitPlayMode"
+msgstr ""
+
+msgid "AvatarBuilderWindowExitPrefabStage"
+msgstr ""
+
+msgid "AvatarBuilderWindowNoActiveAvatarsFound"
+msgstr ""
+
+msgid "AvatarBuilderWindowSelectAvatar"
+msgstr ""
+
+msgid "AvatarBuilderWindowNoNdmfComponentsFound"
+msgstr ""
+
+msgid "AvatarBuilderWindowSucceededBuild"
+msgstr ""
+
+msgid "AvatarBuilderWindowSucceededUpload"
+msgstr ""
+
+msgid "AvatarBuilderWindowFailedBuild"
+msgstr ""
+
+msgid "AvatarBuilderWindowRequiresControlPanel"
+msgstr ""
+
+msgid "AvatarBuilderWindowBuildingProgressLabel"
+msgstr ""
+
+msgid "AvatarBuilderWindowUploadingProgressLabel"
+msgstr ""
+
+msgid "AvatarBuilderWindowCopyrightAgreementHelp"
+msgstr ""
+
+msgid "AvatarBuilderWindowOfflineTestingLabel"
+msgstr ""
+
+msgid "AvatarBuilderWindowOfflineTestingDescription"
+msgstr ""
+
+msgid "AvatarBuilderWindowOnlinePublishingLabel"
+msgstr ""
+
+msgid "AvatarBuilderWindowOnlinePublishingDescription"
+msgstr ""
+
+msgid "AvatarBuilderWindowSdkNoPrecheck"
+msgstr ""
+
+msgid "AvatarBuilderWindowSetAsFallbackIfPossible"
+msgstr ""
+
+msgid "AvatarBuilderWindowSetAsFallbackIfPossibleTooltip"
+msgstr ""
+
+msgid "AvatarBuilderWindowFallbackNotAllowed"
+msgstr ""
+
+msgid "AvatarBuilderWindowNdmfManualBakingLabel"
+msgstr ""
+
+msgid "AvatarBuilderWindowNdmfManualBakingDescription"
+msgstr ""
+
+msgid "AvatarBuilderWindowRequiresAvatarNameAndThumb"
+msgstr ""
+
+msgid "FeatureRequiresNdmf"
+msgstr ""
+
+msgid "NdmfPluginRequiresNdmfUpdate"
+msgstr ""
+
+msgid "NdmfPluginRemovedUnsupportedComponent"
+msgstr ""
+
+msgid "NDMF:RemovedUnsupportedComponentTitle"
+msgstr ""
+
+msgid "NDMF:RemovedUnsupportedComponentDescription"
+msgstr ""
+
+msgid "NDMF:MaterialConversionErrorTitle"
+msgstr ""
+
+msgid "NDMF:MaterialConversionErrorDescription"
+msgstr ""
+
+msgid "NDMF:MaterialSwapNullErrorTitle"
+msgstr ""
+
+msgid "NDMF:MaterialSwapNullErrorDescription"
+msgstr ""
+
+msgid "NDMF:ObjectConversionErrorTitle"
+msgstr ""
+
+msgid "NDMF:ObjectConversionErrorDescription"
+msgstr ""
+
+msgid "NDMF:TargetMaterialNullErrorTitle"
+msgstr ""
+
+msgid "NDMF:TargetMaterialNullErrorTitle:description"
+msgstr ""
+
+msgid "NDMF:UnsupportedTextureFormatTitle"
+msgstr ""
+
+msgid "NDMF:UnsupportedTextureFormatDescription"
+msgstr ""
+
+msgid "NDMF:UnknownTextureFormatTitle"
+msgstr ""
+
+msgid "NDMF:UnknownTextureFormatDescription"
+msgstr ""
+
+msgid "NDMF:MissingNetworkIDAssignerTitle"
+msgstr ""
+
+msgid "NDMF:MissingNetworkIDAssignerDescription"
+msgstr ""
+
+msgid "NDMF:MeshFlipperMaskMissingErrorTitle"
+msgstr ""
+
+msgid "NDMF:MeshFlipperMaskMissingErrorDescription"
+msgstr ""
+
+msgid "NDMF:MeshFlipperMaskNotReadableErrorTitle"
+msgstr ""
+
+msgid "NDMF:MeshFlipperMaskNotReadableErrorDescription"
+msgstr ""
+
+msgid "NDMF:ReplacementMaterialErrorTitle"
+msgstr ""
+
+msgid "NDMF:ReplacementMaterialErrorDescription"
+msgstr ""

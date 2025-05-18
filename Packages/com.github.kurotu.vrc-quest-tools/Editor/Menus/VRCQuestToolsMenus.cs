@@ -32,6 +32,7 @@ namespace KRT.VRCQuestTools.Menus
             internal const string LanguageEnglish = LanguageMenu + "English";
             internal const string LanguageJapanese = LanguageMenu + "日本語";
             internal const string LanguageRussian = LanguageMenu + "Русский";
+            internal const string LanguageRussian = LanguageMenu + "简体中文";
             internal const string CheckForUpdate = RootMenu + "Check for Update";
             internal const string MissingSDK = RootMenu + "VRCSDK is missing or incompatible";
             internal const string Version = RootMenu + "Version " + VRCQuestTools.Version;
@@ -53,6 +54,7 @@ namespace KRT.VRCQuestTools.Menus
             LanguageEnglish,
             LanguageJapanese,
             LanguageRussian,
+            LanguageSChinese,
             CheckForUpdate = 1100,
             MissingSDK,
             Version,

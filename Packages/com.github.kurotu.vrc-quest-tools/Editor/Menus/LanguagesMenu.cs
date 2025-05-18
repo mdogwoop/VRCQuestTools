@@ -69,6 +69,15 @@ namespace KRT.VRCQuestTools.Menus
             SetLanguage(DisplayLanguage.Russian);
         }
 
+        /// <summary>
+        /// Use Simplified Chinese.
+        /// </summary>
+        [MenuItem(VRCQuestToolsMenus.MenuPaths.LanguageSChinese, false, (int)VRCQuestToolsMenus.MenuPriorities.LanguageSChinese)]
+        private static void LanguageSChinese()
+        {
+            SetLanguage(DisplayLanguage.SChinese);
+        }
+
         private static void SetLanguage(DisplayLanguage language)
         {
             VRCQuestToolsSettings.DisplayLanguage = language;
@@ -83,6 +92,7 @@ namespace KRT.VRCQuestTools.Menus
                 { DisplayLanguage.English, VRCQuestToolsMenus.MenuPaths.LanguageEnglish },
                 { DisplayLanguage.Japanese, VRCQuestToolsMenus.MenuPaths.LanguageJapanese },
                 { DisplayLanguage.Russian, VRCQuestToolsMenus.MenuPaths.LanguageRussian },
+                { DisplayLanguage.SChinese, VRCQuestToolsMenus.MenuPaths.LanguageSChinese },
             };
             Debug.Assert(menus.Count == Enum.GetValues(typeof(DisplayLanguage)).Length);
 
